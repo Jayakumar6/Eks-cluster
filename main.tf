@@ -1,10 +1,4 @@
-data "aws_vpc" "default_vpc" {
-  cidr_block = var.cidr_block
-}
-/*
-data "aws_iam_role" "cluster_role" {
-  name = var.name
-}*/
+
 
 resource "aws_eks_cluster" "cluster_project1" {
   name     = "cluster_project1"

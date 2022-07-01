@@ -1,9 +1,9 @@
 variable "subnet_ids" {
-  default = ["subnet-064354fcd6d2e09de", "subnet-09367abf14419c0d8"]
+  default = ["subnet-00a771c328055bff2", "subnet-0175eb38117876d57"]
 }
 
 variable "subnet_azs" {
-  default = ["ap-south-1a", "ap-south-1b"]
+  default = ["us-east-1a", "us-east-1b"]
 }
 
 variable "role_arn" {
@@ -14,11 +14,11 @@ variable "name" {
 }
 
 variable "cidr_block" {
-  default = "172.31.0.0/16"
+  default = "10.0.0.0/16"
 }
 
 variable "vpc_id" {
-  default = "vpc-07dc691f9545da378"
+  default = "vpc-0b0bca52959e39132"
 }
 
 variable "instance_types" {

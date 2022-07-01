@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
   assume_role {
     role_arn = "arn:aws:iam::779527285137:role/AWSdevopscerttaskrole"
   }
